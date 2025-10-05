@@ -12,7 +12,7 @@ plugins {
 }
 
 rootProject.name = 'solid'
-include('srp')
+include('srp', 'ocp', 'lsp', 'isp', 'dip')
 
 dependencyResolutionManagement {
     repositories {

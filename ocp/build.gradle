@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+    alias(libs.plugins.lombok)
+}
+
+group 'io.github.traininglabz.solid'
+version '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    mainClass = 'io.github.traininglabz.solid.ocp.OCPMain'
+}
+
+dependencies {
+
+}

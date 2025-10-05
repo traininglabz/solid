@@ -1,8 +1,9 @@
-package io.github.traininglabz.solid.srp;
+package io.github.traininglabz.solid.lsp;
 
-public class SRPMain {
+public class LSPMain {
     public static void main(String[] args) {
-        System.out.println("SRP: The Single Responsibility Principle\n" + "+".repeat(50));
+        System.out.println("LSP: Liskov Substitution Principle\n" + "+".repeat(50));
+
         if (args.length == 0 || !args[0].equalsIgnoreCase("solution")) {
             System.out.println("Executing example problem...");
             ExampleProblem.run();

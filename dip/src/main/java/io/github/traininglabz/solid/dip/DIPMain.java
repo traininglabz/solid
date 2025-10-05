@@ -1,8 +1,9 @@
-package io.github.traininglabz.solid.srp;
+package io.github.traininglabz.solid.dip;
 
-public class SRPMain {
+public class DIPMain {
     public static void main(String[] args) {
-        System.out.println("SRP: The Single Responsibility Principle\n" + "+".repeat(50));
+        System.out.println("DIP: Dependency Inversion Principle\n" + "+".repeat(50));
+
         if (args.length == 0 || !args[0].equalsIgnoreCase("solution")) {
             System.out.println("Executing example problem...");
             ExampleProblem.run();
